@@ -11,6 +11,9 @@ public class Main {
 
     //bad code. 입출력이 중요한거라 크게 신경 안써도됨. 아래 동작의 좋은 예시 코드는 Fileopy2.java 클래스에 잇음
     public static void main(String[] args) throws Exception{
+
+
+
         String path = "https://mp4.cine21.com/cine21.com/movie/trailer/2025/01/suho_tr.mp4";
         URL url = new URL(path);
         InputStream in = url.openStream();//모든 inputstream애들은 need메서드가 구현되어잇음
